@@ -37,8 +37,29 @@
     }
     //create download buttom
     let download_button = document.createElement("div")
-    download_button.innerHTML = ('<input type="button" id="dwn-btn" class="class="TextResize__PopoverButtonText-sc-1pco9nu-3 eRvUOw" id="dwn-btn" value="Download"/>')
-    download_button.innerHTML = '<div id="dwn-btn"><button id="headlessui-popover-button-7" aria-expanded="false" class="TextResize__Button-sc-1pco9nu-0 TextResize__PopoverButton-sc-1pco9nu-2 bvVnba cOZuzx" type="button"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"></svg><span class="TextResize__PopoverButtonText-sc-1pco9nu-3 eRvUOw">Download</span></button></div>'
+    download_button.innerHTML = `
+        <div id="dwn-btn-div">
+            <button
+                id="dwn-btn"
+                type="button"
+                class="css-1o2du8l-Button-PopoverButton"
+            >
+                <svg width="24" height="24" viewBox="0 0 363.025 363.024">
+		            <path
+                        fill="currentColor"
+                        fill-rule="evenodd"
+                        stroke="currentColor"
+                        stroke-width="3"
+                        d="M0,181.513c0,100.082,81.43,181.512,181.512,181.512c100.089,0,181.513-81.43,181.513-181.512
+		                  C363.025,81.424,281.601,0,181.512,0C81.43,0,0,81.424,0,181.513z M351.315,181.513c0,93.632-76.176,169.802-169.803,169.802
+		                  c-93.632,0-169.802-76.17-169.802-169.802c0-91.657,73.016-166.546,163.936-169.657L175.277,201.8l-32.958-32.958l-8.28,8.28
+		                  l47.065,47.064l47.88-47.885l-8.28-8.28l-33.722,33.723l0.374-189.893C278.285,14.955,351.315,89.841,351.315,181.513z"
+                    />
+                </svg>
+                <span class="css-h39wql-PopoverButtonText">DOWNLOAD</span>
+            </button>
+        </div>
+    `
     window.addEventListener('load', function() {
         //find a place for download buttom
         let all_buttons = document.getElementsByTagName("button")
