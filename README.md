@@ -1,4 +1,4 @@
-[<img src="https://img.shields.io/greasyfork/dd/448000-download-wsj?style=plastic">](https://greasyfork.org/en/scripts/448000-download-wsj) [<img src="https://img.shields.io/greasyfork/dt/448000-download-wsj">](https://greasyfork.org/en/scripts/448000-download-wsj) ![Greasy Fork](https://img.shields.io/greasyfork/rating-count/448000-download-wsj)
+[<img src="https://img.shields.io/greasyfork/dd/448000-download-wsj">](https://greasyfork.org/en/scripts/448000-download-wsj) [<img src="https://img.shields.io/greasyfork/dt/448000-download-wsj">](https://greasyfork.org/en/scripts/448000-download-wsj) ![Greasy Fork](https://img.shields.io/greasyfork/rating-count/448000-download-wsj)
 
 A script to generate a download button on wjs websit that allows downloading articles in txt for text mining.
 
